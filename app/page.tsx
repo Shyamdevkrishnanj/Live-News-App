@@ -6,7 +6,7 @@ import response from '../response.json';
 async function Homepage() {
 
   // fetch news data
-  const news: NewsResponse = response || await fetchNews(categories.join(',')); // response ||
+  const news: NewsResponse = await fetchNews(categories.join(',')); // response ||
 
   // timeout
   await new Promise((resolve) => setTimeout(resolve, 1000));
