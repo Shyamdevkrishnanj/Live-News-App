@@ -18,6 +18,7 @@ function Articlepage({ searchParams }: Props) {
 
     return (
         <article>
+            
             <section className="flex flex-col lg:flex-row pb-24 px-0 lg:px-10">
                 {article.image && (
                     <img
@@ -47,7 +48,9 @@ function Articlepage({ searchParams }: Props) {
                 </div>
 
             </section>
+            
         </article>
+        
     )
 }
 

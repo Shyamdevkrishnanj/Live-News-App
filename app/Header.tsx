@@ -59,8 +59,7 @@ function Header() {
             onClick={closeLoginPopup}
           ></div>
 
-          <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white p-4 dark:bg-slate-800">
-            {/* Close button */}
+          <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white p-4 dark:bg-slate-800 rounded-md shadow-lg">
             <XMarkIcon
               className="h-6 w-6 cursor-pointer absolute top-2 right-2"
               onClick={closeLoginPopup}
@@ -86,7 +85,7 @@ function Header() {
             <XMarkIcon className="h-6 w-6 cursor-pointer absolute top-2 right-2" onClick={closeSidebar} />
 
             {/* Sidebar content goes here */}
-            <p>Sidebar Content</p>
+            <p>Quik Bar</p>
 
             <button className={clsx(
               "text-primary border-primary font-semibold p-2 lg:p-3 mt-2 lg:mt-4",

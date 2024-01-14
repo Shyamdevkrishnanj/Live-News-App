@@ -2,6 +2,7 @@ import { categories } from "@/constants";
 import fetchNews from "@/lib/fetchNews";
 import NewsList from "./NewsList";
 import response from '../response.json';
+import Slider from "./Slider";
 
 async function Homepage() {
 
@@ -15,6 +16,7 @@ async function Homepage() {
 
   return (
     <div>
+      <Slider />
       <NewsList news={news} />
     </div>
   )
